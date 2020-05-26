@@ -90,7 +90,7 @@ a:hover span:nth-child(4)
 }
 @media only screen and (max-width: 589px) {
   body {
-    min-height:150vh;
+    display: block;
     justify-content: center;
     align-items: center;
   }
