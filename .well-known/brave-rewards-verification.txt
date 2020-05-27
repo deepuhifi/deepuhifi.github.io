@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: deepuhifi.github.io
+Token: 6576363d9e70548b1974026678311b1a16b34f2dcfb1074e8f269e6325ad73c3
