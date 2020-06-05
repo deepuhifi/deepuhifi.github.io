@@ -5,7 +5,7 @@ body
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 110vh;
   background: #031321;
   font-family: consolas;
 }
@@ -88,12 +88,7 @@ a:hover span:nth-child(4)
   transition: 0.9s;
   transition-delay: 0.6s;
 }
-@media only screen and (max-width: 589px) {
-  body {
-    min-height: 115vh;
-    justify-content: center;
-    align-items: center;
-  }
+@media only screen and (max-width: 549px) {
   a {
-    font-size: 48px;
+    font-size: 46px;
   }}
