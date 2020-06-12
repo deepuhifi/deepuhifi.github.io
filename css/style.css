@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  box-sizing: border-box;
+}
+
+.header_d .main-menu_d .navbar {
+  box-shadow: 1px 1px 15px 1px 	rgba(221,160,221,0.7);
+  background: linear-gradient(to right,	#E6E6FA, #F5F5FD );
+  overflow: auto;
+}
+.header_d .main-menu_d .navbar-brand img{
+  height: auto;
+  width: 175px;
+}
+.header_d .main-menu_d .nav-item a::before{
+  text-transform: capitalize;
+  font-weight: 100;
+  overflow: hidden;
+  padding: 5px;
+}
+.header_d .main-menu_d .nav-item a:hover{
+  text-transform: uppercase;
+  font-weight: 250;
+  overflow: hidden;
+  color: rgba(128,0,128,0.7);
+}
+.header_d .main-menu_d .navbar-img .dark-mode img{
+  padding-left: 40px;
+  height: 45px;
+}
