@@ -3,16 +3,22 @@
   padding: 0;
   font-family: 'Nunito', sans-serif;
   box-sizing: border-box;
-}
 
+}
+.button{
+  padding: .8rem 2.2rem;
+  position: relative;
+  border: 3px solid transparent;
+  border-radius: 4px;
+}
 .header_d .main-menu_d .navbar {
   box-shadow: 1px 1px 15px 1px 	rgba(221,160,221,0.7);
   background: linear-gradient(to right,	#E6E6FA, #F5F5FD );
   overflow: auto;
 }
 .header_d .main-menu_d .navbar-brand img{
-  height: auto;
-  width: 175px;
+  height: 48px;
+  width: auto;
 }
 .header_d .main-menu_d .nav-item a::before{
   text-transform: capitalize;
@@ -23,10 +29,39 @@
 .header_d .main-menu_d .nav-item a:hover{
   text-transform: uppercase;
   font-weight: 250;
-  overflow: hidden;
+  --webkit-background-fill-color: transparent;
   color: rgba(128,0,128,0.7);
 }
 .header_d .main-menu_d .navbar-img .dark-mode img{
   padding-left: 40px;
   height: 45px;
+}
+.main-area .site-banner {
+  background: url(../img/banner/banner-back.png)no-repeat 0% 50%;
+}
+.main-area .site-banner .container .row .site-title h3{
+  padding-top: 35%;
+  font-weight: 500;
+}
+.main-area .site-banner .container .row .site-title h3::after{
+  content: "";
+  height:2px;
+  width: 190px;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
+}
+.main-area .site-banner .container .row .site-title h1{
+  font-size: 4rem;
+  font-weight: 900;
+}
+.main-area .site-banner .container .row .site-title h4{
+  font-size: 1.7rem;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.main-area .site-banner .container .row .site-img > img{
+  padding: 60px 0 40px 80px;
+  width: 100%;
 }
